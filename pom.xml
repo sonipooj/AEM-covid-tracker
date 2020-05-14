@@ -24,6 +24,7 @@
 
     <modules>
         <module>core</module>
+        <module>angular-app</module>
         <module>ui.apps</module>
         <module>ui.content</module>
     </modules>
@@ -37,7 +38,9 @@
         <sling.password>admin</sling.password>
         <vault.user>admin</vault.user>
         <vault.password>admin</vault.password>
-
+        <frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
+        <node.version>v10.16.3</node.version>
+        <npm.version>6.9.0</npm.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>

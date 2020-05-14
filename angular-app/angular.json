@@ -27,7 +27,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/scss/bootstrap.scss",
+              "src/assets/scss/app.scss",
+              "src/assets/scss/icons.scss"
             ],
             "scripts": []
           },
@@ -135,5 +138,11 @@
       }
     }
   },
-  "defaultProject": "angular-app"
+  "defaultProject": "angular-app",
+  "cli": {
+    "analytics": false,
+    "warnings": {
+      "typescriptMismatch": false
+    }
+  }
 }
